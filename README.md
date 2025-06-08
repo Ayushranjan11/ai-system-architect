@@ -1,51 +1,61 @@
-# 🤖 AI System Architect
-A simple web tool that uses Google's Gemini AI to instantly convert high-level business ideas into low-level technical specifications.
+# 🚀 AI System Architect
 
-# ✨ What It Does
-This tool automates the initial software planning process. Simply provide a business requirement, and the AI will generate a complete technical blueprint, including:
+A web-based tool that leverages **Google Gemini AI** to instantly translate high-level business requirements into detailed, low-level technical specifications.
 
-📦 Proposed Modules: The key software components needed.
+## 📝 Overview
 
-🗄️ Database Schemas: A simple table structure for the core features.
+**AI System Architect** automates the initial software planning process. Simply provide a business requirement, and the AI will generate a comprehensive technical blueprint — helping developers move faster from idea to implementation.
 
-📄 Pseudocode: High-level code logic for a primary function.
+## ✨ Key Features
 
-# 🛠️ Tech Stack
-Backend: Python & Flask
+- 🗂️ **Proposed Modules**  
+  Identifies key software components and modules required for the project.
 
-Frontend: HTML & CSS
+- 🗄️ **Database Schemas**  
+  Suggests clear and simple table structures for core features.
 
-AI: Google Gemini API
+- 🧑‍💻 **Pseudocode**  
+  Provides high-level code logic for one of the primary functions.
 
-# 🚀 How to Run It Locally
-Follow these simple steps to get the project running on your machine.
+## 🌐 Live Demo
 
-Clone the Repository
+You can test the working prototype here:  
+👉 [https://ayushh11.pythonanywhere.com/](https://ayushh11.pythonanywhere.com/)
+
+### 🚦 How to Use
+
+1. Visit the link above.
+2. Enter a descriptive business requirement in the text box. Example: `"Design a simple blog platform where users can post articles and other users can leave comments."`
+3. Click **Generate Specifications**.
+4. Review the AI-generated technical blueprint on the page.
+
+## 💻 Running the Project Locally
+
+### 1️⃣ Clone the Repository
 
 git clone https://github.com/Ayushranjan11/ai-system-architect.git
 cd ai-system-architect
 
-Setup Virtual Environment & Install Packages
-
-# Create and activate the environment
+### 2️⃣ Set Up Virtual Environment & Install Packages
+#Create and activate the environment
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
--pip install -r requirements.txt
+#Install required packages
+pip install -r requirements.txt
 
--Add Your API Key
-
--Make a copy of the example environment file:
-
+### 3️⃣ Configure API Key
 cp env.example .env
 
--Open the new .env file and paste in your GOOGLE_API_KEY.
+### 4️⃣ Run the Application
+python app.py
 
--Run the Application
+### 5️⃣ View in Browser
+Open your web browser and go to: http://127.0.0.1:5000
 
--python app.py
+# 🤝 Contributing
+Contributions and suggestions are welcome! If you’d like to contribute, please open an issue first to discuss your ideas. Pull requests are appreciated.
 
--View in Browser
 
--Open your web browser and go to: http://127.0.0.1:5000
+
+
