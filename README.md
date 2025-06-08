@@ -27,11 +27,11 @@ cd ai-system-architect
 
 Setup Virtual Environment & Install Packages
 
-#Create and activate the environment
+# Create and activate the environment
 python3 -m venv venv
 source venv/bin/activate
 
-#Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
 Add Your API Key
