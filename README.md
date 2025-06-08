@@ -32,20 +32,20 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
-Add Your API Key
+-Add Your API Key
 
-Make a copy of the example environment file:
+-Make a copy of the example environment file:
 
 cp env.example .env
 
-Open the new .env file and paste in your GOOGLE_API_KEY.
+-Open the new .env file and paste in your GOOGLE_API_KEY.
 
-Run the Application
+-Run the Application
 
-python app.py
+-python app.py
 
-View in Browser
+-View in Browser
 
-Open your web browser and go to: http://127.0.0.1:5000
+-Open your web browser and go to: http://127.0.0.1:5000
